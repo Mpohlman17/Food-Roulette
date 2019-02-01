@@ -131,7 +131,7 @@ function stopRotateWheel() {
   $("body").append(locationTag);
 
   var googleTag = $(
-    '<script async defer src="https://maps.googleapis.com/maps/api/js?key=*YOUR API_KEY HERE*-Ww&callback=initMap">'
+    '<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_uq660sOqIWpWFdN6tGwKUYR07jmx-Ww&callback=initMap">'
   )
   $("body").append(googleTag);
 }
